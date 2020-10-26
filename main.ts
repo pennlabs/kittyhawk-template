@@ -1,4 +1,4 @@
-import { Application, synthChart, Construct, CronJob } from '@pennlabs/kittyhawk';
+import { Application, synth, Construct, CronJob } from '@pennlabs/kittyhawk';
 
 export function buildChart(scope: Construct) {
 
@@ -19,6 +19,7 @@ export function buildChart(scope: Construct) {
   });
 }
 
-synthChart(buildChart);
+// Synthesizes the chart (run "npm run build")
+synth(buildChart);
 
 
