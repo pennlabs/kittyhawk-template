@@ -6,4 +6,4 @@ This template repo contains everything needed to locally test kittyhawk configur
 
 2. Write the configuration in the `main.ts` file. A list of available constructs can be found in the Kittyhawk user guide and the Kittyhawk API documentation. 
 
-3. Compile and synthesize the Kubernetes YAML using the command `npm run synth`. It it saved at `dist/kittyhawk.k8s.yaml`. 
+3. Compile and synthesize the Kubernetes YAML using the command `npm run build`. It it saved at `dist/kittyhawk.k8s.yaml`. 
