@@ -1,4 +1,5 @@
-import { Application, synth, Construct, CronJob } from '@pennlabs/kittyhawk';
+import { Application, synth, CronJob } from '@pennlabs/kittyhawk';
+import { Construct } from 'constructs'; 
 
 export function buildChart(scope: Construct) {
 

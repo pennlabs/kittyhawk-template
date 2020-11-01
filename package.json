@@ -6,16 +6,16 @@
   "license": "Apache-2.0",
   "private": true,
   "scripts": {
-    "import": "npx cdk8s import",
-    "synth": "npx cdk8s synth",
+    "import": "yarn run cdk8s import",
+    "synth": "yarn run cdk8s synth",
     "compile": "tsc",
     "watch": "tsc -w",
-    "build": "npm run compile && npm run synth",
-    "upgrade": "npm i cdk8s@latest cdk8s-cli@latest",
-    "upgrade:next": "npm i cdk8s@next cdk8s-cli@next"
+    "build": "yarn run compile && yarn run synth",
+    "upgrade": "yarn add cdk8s@latest && yarn add cdk8s-cli@latest -D"
   },
   "dependencies": {
     "cdk8s": "^0.33.0",
+    "constructs": "^3.1.3",
     "@pennlabs/kittyhawk": "^1.0.0"
   },
   "devDependencies": {
