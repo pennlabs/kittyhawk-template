@@ -9,10 +9,10 @@
   dependencies:
     jsonschema "^1.4.0"
 
-"@pennlabs/kittyhawk@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@pennlabs/kittyhawk/-/kittyhawk-1.0.0.tgz#3a5eb45ef146994ca58bd4927babdc525af0efaf"
-  integrity sha512-A2XQriG4pJ8xarKjs/URsaahryGMAZceZRxRHIQv3lrdIn4KGuvCObOjb1MMCfFqrHTsH8KueqZQU+iTq1whCQ==
+"@pennlabs/kittyhawk@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@pennlabs/kittyhawk/-/kittyhawk-1.0.1.tgz#fa122516f06a849cf489150da4fe58bae4b2a85b"
+  integrity sha512-MVIqAAFftfjwSc80JwVB6paoUQsvq5cqUtE4YeTqqEOxmd4qjGTny9pm5eb3ldiGRTpwfP4S2/9CzQGUTNs6Iw==
   dependencies:
     cdk8s "^0.33.0"
     cdk8s-plus "^0.33.0"
